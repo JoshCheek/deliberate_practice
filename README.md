@@ -9,7 +9,9 @@ Readline keybindings
 Integer literals
 ----------------
 
+```sh
 ruby -e 'p 10, 0b10, 010, 0x10'
+```
 
 
 Exit statuses
@@ -31,3 +33,10 @@ $ ruby -e 'exit 256'
 $ echo $status
 ```
 
+Possibilities
+=============
+
+* recreate unix programs (cat, grep, cp, mv, ls, env, ...)
+* shell piping and redirection (`|`, `>`, `2>`, `2>&1`, `>>`, `<`)
+* HTTP (nc / webserver / etc)
+* shell quoting / splitting / glob patterns
